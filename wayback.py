@@ -248,7 +248,7 @@ def download_site(wayback_url, output_dir="web4_contract/res"):
             <div class="banner-info">Archived copy from {timestamp_date} via 
                 <a href="{wayback_url}">Wayback Machine</a>
             </div>
-            <div class="banner-info">Made unstoppable by web4 on {today_date}</div>
+            <div class="banner-info">Made unstoppable by <a href="https://github.com/joe-rlo/wayback_web4">web4</a> on {today_date}</div>
         </div>
         <div class="content">
             {str(main_content)}
